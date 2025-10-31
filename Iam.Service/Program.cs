@@ -64,7 +64,7 @@ builder.Services.AddControllers();
 
 builder.Services.AddOpenApiDocument(config =>
 {
-    config.Title = "AttrectoTest API";
+    config.Title = "IAM API";
     config.Version = "v1";
 
     // Security Definition (Bearer JWT)
