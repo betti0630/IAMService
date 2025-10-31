@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AttrectoTest.Grpc.Common" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Iam.Application\Iam.Application.csproj" />
+  </ItemGroup>
+
+    <PropertyGroup>
+        <NoWarn>CA1812,CA1848,CA2254</NoWarn>
+    </PropertyGroup>
+</Project>
